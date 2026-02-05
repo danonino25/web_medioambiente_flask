@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Las 3 R del cuidado ambiental</h2>
+
+<p class="mb-4">
+Las 3 R representan una estrategia fundamental para disminuir el impacto
+ambiental de nuestras actividades diarias. Aplicarlas de forma consciente
+permite reducir la cantidad de residuos, aprovechar mejor los recursos
+y contribuir a un desarrollo más sostenible.
+</p>
+
+<div class="row text-center">
+  <div class="col-md-4 mb-3">
+    <h4>Reducir</h4>
+    <p>
+      Implica consumir únicamente lo necesario, evitando el desperdicio
+      de recursos naturales, energía y materiales desde el origen.
+    </p>
+  </div>
+
+  <div class="col-md-4 mb-3">
+    <h4>Reutilizar</h4>
+    <p>
+      Consiste en dar una segunda vida a los objetos antes de desecharlos,
+      prolongando su uso y disminuyendo la generación de residuos.
+    </p>
+  </div>
+
+  <div class="col-md-4 mb-3">
+    <h4>Reciclar</h4>
+    <p>
+      Se refiere a transformar los residuos en nuevos productos,
+      reduciendo la contaminación y el uso de materias primas.
+    </p>
+  </div>
+</div>
+
+<p style="
+    background-color: #f1f8f5;
+    border-left: 6px solid #2e7d32;
+    padding: 10px;
+    font-weight: 500;
+    margin-top: 10px;
+">
+Pequeñas acciones diarias pueden generar grandes cambios en el cuidado del planeta.
+</p>
+
+<img src="{{ url_for('static', filename='images/reciclaje.jpg') }}"
+     class="img-fluid rounded mt-3 shadow">
+
+{% endblock %}

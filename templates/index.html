@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="row align-items-center my-5">
+  <div class="col-md-6">
+    <h1>¿Por qué es importante cuidar el medio ambiente?</h1>
+
+    <p class="lead">
+      El medio ambiente es la base de la vida.
+      Protegerlo garantiza bienestar, salud y recursos
+      para las futuras generaciones.
+    </p>
+
+    <p>
+      Cada ecosistema cumple una función vital: regula el clima,
+      purifica el aire, conserva el agua y sostiene la biodiversidad.
+      Cuando dañamos el entorno, ponemos en riesgo nuestro propio futuro.
+    </p>
+
+    <p>
+      Cuidar el planeta no es solo una responsabilidad de gobiernos
+      o empresas; comienza con acciones cotidianas como reducir residuos,
+      consumir responsablemente y respetar la naturaleza.
+    </p>
+  </div>
+
+  <div class="col-md-6 text-center">
+    <img src="{{ url_for('static', filename='images/ambiente.jpg') }}"
+         class="img-fluid rounded shadow">
+  </div>
+</div>
+
+{% endblock %}

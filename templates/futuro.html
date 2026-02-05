@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>El planeta que dejaremos a nuestros hijos</h2>
+
+<img src="{{ url_for('static', filename='images/futuro.jpg') }}"
+     class="img-fluid rounded mb-4">
+  
+<p>
+Las decisiones que tomamos hoy no son invisibles ni pasajeras.
+Cada acción —o cada omisión— construye el mundo en el que vivirán
+las próximas generaciones. El futuro del planeta no es una idea lejana:
+se está formando ahora mismo.
+</p>
+
+<p>
+El consumo desmedido, la contaminación y el desinterés ambiental
+tienen consecuencias reales: escasez de agua, pérdida de biodiversidad,
+cambios climáticos extremos y una calidad de vida cada vez más limitada.
+Sin embargo, aún estamos a tiempo de cambiar el rumbo.
+</p>
+
+<p>
+Adoptar hábitos sostenibles, cuidar los recursos naturales y exigir
+responsabilidad ambiental no es solo una opción, es un compromiso
+moral con quienes todavía no tienen voz.
+</p>
+
+<p style="
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+">
+El planeta no necesita más promesas, necesita acciones hoy.
+</p>
+{% endblock %}
