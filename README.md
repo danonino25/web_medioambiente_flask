@@ -46,11 +46,18 @@ Incluye contenido informativo, diseño responsivo y elementos visuales que refue
 
 ## 🖼️ Evidencia visual
 
-La aplicación presenta una interfaz amigable y responsiva, con secciones informativas y elementos visuales relacionados con el reciclaje y el cuidado del planeta.
+La aplicación presenta una interfaz amigable y responsiva, con secciones informativas y elementos visuales relac
+ionados con el reciclaje y el cuidado del planeta.
 
-*(Aquí puedes agregar capturas de pantalla si tu profesor lo solicita)*
+
+<img width="1896" height="890" alt="Evidencia1" src="https://github.com/user-attachments/assets/3f0676a2-24bd-4b1f-9615-fb5367447643" />
+<img width="660" height="433" alt="evidencia2" src="https://github.com/user-attachments/assets/6c229b65-1a40-4519-a328-b2a17009e694" />
+<img width="662" height="382" alt="evidencia3" src="https://github.com/user-attachments/assets/d8f60ba1-1c5e-43e8-8d40-d4339af11e5a" />
+<img width="667" height="440" alt="evidencia4" src="https://github.com/user-attachments/assets/5ca92780-4c6c-41f2-8d93-14ac06d345e8" />
 
 ---
+
+
 
 ## ⚙️ Cómo ejecutar el proyecto
 
